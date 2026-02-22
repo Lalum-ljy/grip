@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:background="@drawable/rounded_black_background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="开始"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="20dp"
+        app:cornerRadius="20dp"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnReject"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="停止"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336"
+        app:cornerRadius="20dp"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+</LinearLayout>
